@@ -1,0 +1,26 @@
+{
+    "title": "pispy",
+    "name": "pispy",
+    "description": "Logs mac addresses that probe an access point",
+    "repository": "http://www.github.com/levexis/pispy.git",
+    "version": "0.0.1",
+    "author": "Paul Cook",
+    "homepage": "http://linkedin.com/in/adtechzen",
+    "private": true,
+    "contributors": [
+        "Paul Cook <levexis@googlemail.com> ()"
+    ],
+    "engines": {
+        "node": "0.10.28"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "q": "latest",
+        "underscore": "latest"
+    },
+    "devDependencies": {
+        "mocha": "latest"
+    }
+}
